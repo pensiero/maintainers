@@ -66,7 +66,7 @@ class StreamWriter extends AbstractWriter
 
 While the next example displays proper usage:
 
-```
+```php
 namespace Zend\Log\Writer; 
 
 use Zend\Log\Writer; 
@@ -104,7 +104,7 @@ considered appropriate interface names.
 
 Interfaces MUST be in the same namespace as concrete implementations.
 
-```
+```php
 namespace Zend\Log\Writer; 
 
 interface class WriterInterface 
